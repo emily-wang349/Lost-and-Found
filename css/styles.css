@@ -11,7 +11,7 @@ body{
   font-weight: bold;
   background-color: black;
   position: absolute;
-  left: 90%;
+  left: 100%;
   top: 5%;
 }
 #info{
@@ -52,10 +52,11 @@ table{
 }
 table thead tr th{
   height: 50px;
-  width: 150px;
+  width: 250px;
   text-align: center;
   vertical-align: center;
   font-weight: bold;
+  font-size: 20px;
 }
 
 table tbody tr td {
@@ -63,7 +64,6 @@ table tbody tr td {
   width: 150px;
   text-align: center;
   vertical-align: center;
-  font-weight: bold;
 }
 
 tr:hover {
