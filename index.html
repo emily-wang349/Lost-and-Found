@@ -17,9 +17,14 @@
   </head>
 
   <body>
-      <div id = 'add'>Add a new item</div>
       <div class = 'container'>
-        <h1 id="title">Lost and Found</h1>
+        <center><h1 id="title">Lost and Found</h1></center>
+        <input type="button" name="additem" id="additem" value="Add new item">
+        <div class = "description">
+            <input type="text" name="name" id="name" placeholder = "Name of item"> <br/>
+            <input type="text" name="dropoff" id = "dropoff" placeholder = "Where did you drop this item off"> <br/>
+            <input type="button" name="done" id="done" value="Done">
+        </div>
       </div>
   </body>
   <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
@@ -28,9 +33,13 @@
     sr.reveal('.container', {duration: 500});
   </script>
   <script>
-    $add = $('#add');
+    $('.description').hide();
+    $add = $('#additem');
     $add.on('click', ()=>{
-        alert("hello world");
+        $('.description').show();
     });
+    $('#done').on('click', ()=>{
+      $('.description').hide();
+    })
   </script>
 </html>
