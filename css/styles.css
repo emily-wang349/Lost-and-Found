@@ -21,3 +21,8 @@ body{
   opacity: 0.9;
   align-items: center;
 }
+
+#title{
+  font-weight: bold;
+  color: gold;
+}
