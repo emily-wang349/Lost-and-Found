@@ -1,9 +1,10 @@
 body{
   background-image: url("../images/bg.jpg");
 }
-#add{
+#additem{
   width: 100px;
   height: 50px;
+  border: black;
   color: gold;
   font-size: 12px;
   text-align: center;
@@ -29,15 +30,26 @@ body{
   width: 80vw;
   height: 100vh;
   color: grey;
-  background-color: white;
-  opacity: 0.9;
+  background-color: rgba(255,255,255,0.9);
   align-items: center;
 }
-
+.description{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: gold;
+  width: 30vw;
+  height: 30vw;
+}
 #title{
   font-weight: bold;
+<<<<<<< HEAD
+  color: gold;
+  align: center;
+}
+=======
   color: Grey;
   text-align: center;
   font-size: 50px;
   font-family: "Impact", Charcoal, sans-serif;
 }
+>>>>>>> origin/master
