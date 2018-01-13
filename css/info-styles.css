@@ -1,3 +1,18 @@
 body{
-  background-image: url("..images/bg.jpg");
+  background-image: url("../images/bg.jpg");
+}
+#title{
+  font-weight: bold;
+  color: Grey;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Impact", Charcoal, sans-serif;
+}
+.container{
+  width: 80vw;
+  height: 100vh;
+  color: grey;
+  background-color: white;
+  opacity: 0.9;
+  align-items: center;
 }
